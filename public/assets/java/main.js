@@ -22,7 +22,11 @@ $(".devour").on("click", element => {
   console.log(`id = ${id}`);
   let url = "/api/burgers/" + id;
   console.log("url ", url);
-  $.put(url, devoured).then(response => {
-    console.log("Devoured successfully!");
+  $.ajax({
+    url: url,
+    type: "PUT",
+    success: function(response) {
+      console.log("Devoured successfully!");
+    }
   });
 });

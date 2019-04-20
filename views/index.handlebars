@@ -19,8 +19,8 @@
         <div class="col-sm-2">
             {{#each burger_name }}
             {{#unless devoured }}
-            <div class="top-margin-btn"><button type="button" value="{{id}}"
-                    class="btn btn-warning devour">Devour</button>
+            <div class="top-margin-btn"><a href="/"><button type="button" value="{{id}}"
+                        class="btn btn-warning devour">Devour</button></a>
             </div>
             {{/unless}}
             {{/each}}
