@@ -11,7 +11,7 @@ PRIMARY KEY,
     burger_name
     VARCHAR
     (40) NOT NULL,
-    devoured boolean
+    devoured boolean not null default 0
 );
 
     SELECT *

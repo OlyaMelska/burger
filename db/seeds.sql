@@ -1,13 +1,13 @@
 USE burgers_db;
 INSERT INTO burgers
-    ( burger_name, devoured)
+    ( burger_name)
 VALUES
-    ("Double Cheese Burger", false);
+    ("Double Cheese Burger");
 INSERT INTO burgers
-    ( burger_name, devoured)
+    ( burger_name)
 VALUES
-    ("Cheese Burger", false);
+    ("Cheese Burger");
 INSERT INTO burgers
-    ( burger_name, devoured)
+    ( burger_name)
 VALUES
-    ("Chicken Burger", false);
+    ("Chicken Burger");
